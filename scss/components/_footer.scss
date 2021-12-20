@@ -1,0 +1,25 @@
+@import '../base/variables';
+
+.footer{
+    background-color: $colorPrincipal;
+    margin-top: 30px;
+    bottom: 0;
+}
+
+.puntoListas{
+    list-style: none;
+}
+
+.hipervinculos{
+    text-decoration: none;
+    color: #212529;
+}
+
+.logoFooter{
+    margin-top: 5px;
+}
+
+.ultimoMensajeFooter{
+    display: inline;
+    margin: 0;  
+}

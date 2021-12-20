@@ -1,0 +1,77 @@
+.box-carousel{
+    width: 700px;
+    height: 200px;
+    background-color:black;
+    opacity: 0.4;
+}
+
+.segundaSeccion{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.filaIconos{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.seccion1Tienda{
+    min-height: 100%;
+}
+
+.card{
+    margin: 30px;
+}
+
+.filaLogueo{
+    justify-content: center;
+}
+
+.columnaIconos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textIconos{
+    text-align: center;
+}
+
+.textoFondoLogueo{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 10%;
+    user-select: none;
+}
+
+.cardFondoLogueo{
+    margin: 0px;
+}
+
+.textoFondoCarousel1 , .textoFondoCarousel2 , .textoFondoCarousel3, .textoFondoCarousel4{
+    text-align: center;
+    margin-top: 20%;
+    user-select: none;
+    color: rgb(255, 255, 255);
+    text-shadow: black;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.textoFondoCarousel1{
+    font-size: 80px;
+}
+.textoFondoCarousel2{
+    font-size: 100px;
+}
+.textoFondoCarousel3{
+    font-size: 80px;
+}
+.textoFondoCarousel4{
+    font-size: 100px;
+}
+
+.paginationMe{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}

@@ -1,0 +1,213 @@
+.bg-purple {
+  background-color: #c484ff;
+}
+
+.footer {
+  background-color: #c484ff;
+  margin-top: 30px;
+  bottom: 0;
+}
+
+.puntoListas {
+  list-style: none;
+}
+
+.hipervinculos {
+  text-decoration: none;
+  color: #212529;
+}
+
+.logoFooter {
+  margin-top: 5px;
+}
+
+.ultimoMensajeFooter {
+  display: inline;
+  margin: 0;
+}
+
+.box-carousel {
+  width: 700px;
+  height: 200px;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.segundaSeccion {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.filaIconos {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.seccion1Tienda {
+  min-height: 100%;
+}
+
+.card {
+  margin: 30px;
+}
+
+.filaLogueo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.columnaIconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.textIconos {
+  text-align: center;
+}
+
+.textoFondoLogueo {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 10%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.cardFondoLogueo {
+  margin: 0px;
+}
+
+.textoFondoCarousel1, .textoFondoCarousel2, .textoFondoCarousel3, .textoFondoCarousel4 {
+  text-align: center;
+  margin-top: 20%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: white;
+  text-shadow: black;
+  -webkit-filter: drop-shadow(2px 4px 6px black);
+          filter: drop-shadow(2px 4px 6px black);
+}
+
+.textoFondoCarousel1 {
+  font-size: 80px;
+}
+
+.textoFondoCarousel2 {
+  font-size: 100px;
+}
+
+.textoFondoCarousel3 {
+  font-size: 80px;
+}
+
+.textoFondoCarousel4 {
+  font-size: 100px;
+}
+
+.paginationMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px auto;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .titulosFooter {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hipervinculos {
+    margin-right: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logoFooter {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cardTienda {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .titulosFooter {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hipervinculos {
+    margin-right: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logoFooter {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .titulosFooter {
+    font-size: 22px;
+    margin-top: 6px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

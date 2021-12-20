@@ -1,0 +1,66 @@
+// MOBILE
+@media screen and (max-width: 576px)
+{
+    .titulosFooter{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hipervinculos{
+        margin-right: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logoFooter{
+        padding-top: 50px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cardTienda{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+// TABLET
+@media screen and (min-width: 577px) and (max-width:767px)
+{
+    .titulosFooter{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hipervinculos{
+        margin-right: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logoFooter{
+        padding-top: 50px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+}
+
+// 4:3
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+    .titulosFooter{
+        font-size: 22px;
+        margin-top: 6px;
+    }
+    
+}
